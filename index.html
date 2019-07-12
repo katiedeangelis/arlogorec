@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filters</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./tracking/tracking.js"></script>
+    <script src="./tracking/data/face.js"></script>
+  </head>
+<body>  
+  <div class="container">
+    <div class="header">
+      <h1>Is this working...</h1>
+    </div>
+    <div class="buttons">
+      <button id="dog-face">🐶</button>
+      <button id="bunny-ears">🐰</button>
+      <button id="flower-crown">🌸</button>
+    </div>        
+    <div class="webcam">
+      <video id="video" width="500" height="375" preload autoplay loop muted></video>
+      <canvas id="canvas" width="500" height="375"></canvas>     
+    </div>  
+  </div>
+  <script src="script.js"></script>    
+</body>
+</html>
